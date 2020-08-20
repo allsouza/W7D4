@@ -1,0 +1,21 @@
+
+
+.sections_nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.sections_nav li {
+    padding: 0px 10px;
+}
+
+
+.sections_nav ul li a:hover {
+    background: lightgrey;
+}
+
+#all:hover {
+    text-decoration: underline;
+    background: transparent;
+}

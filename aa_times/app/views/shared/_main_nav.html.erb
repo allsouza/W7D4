@@ -2,26 +2,27 @@
 	<nav class="left-nav">
 		<ul>
 			<li id="sections-sidebar-btn">
-				<a href=""><i class="fa fa-bars"></i>
-				sections</a>
+				<a href = ""> <i class="fa fa-bars"></i>
+				<span>sections</span> </a>
+				<%= render partial: 'shared/sections_sidebar'%>
 			</li>
 			<li id="search-modal-btn">
 				<a href=""><i class="fa fa-search"></i>
-				search</a>
+				<span>search</span></a>
 			</li>
 		</ul>
 	</nav>
 	<nav class="right-nav">
 		<ul>
-			<li id="subscribe-btn">
-				<button type="button" >Subscribe</button>
+			<li>
+				<button>Subscribe Now</button>
 			</li>
-			<li id="log-in-btn">
-				<button type="button" >Log in</button>
+			<li>
+				<button>Log In</button>
 			</li>
-			<li id="gear-dropdown" class="hidden" >
-				<a href=""><i class="fas fa-cog"></i></a>
-
+			<li id="gear-dropdown-btn">
+				<i class="fas fa-cog"></i> 
+				<%= render partial: 'shared/gear_dropdown' %>
 			</li>
 		</ul>
 	</nav>

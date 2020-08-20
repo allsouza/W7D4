@@ -26,10 +26,10 @@
 }
 
 .right-nav > ul > li:last-of-type {
-
+    position: relative;
 }
 
-.left-nav a:hover,
+.left-nav ul li a span:hover,
 .left-nav i:hover,
 .right-nav i:hover {
     color: gray;
